@@ -1,88 +1,848 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>CPET</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>CPET</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,400i,500,500i,600,700&display=swap"
+		rel="stylesheet">
+
+	<link rel="stylesheet" href="./src/base.css">
+	<link rel="stylesheet" type="text/css"
+		href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/fontawesome.min.css">
+	<link rel="stylesheet" type="text/css" href="./src/style.css">
 </head>
 
 <body>
-    <header>
-        <div class="logo">
-            <img src="https://ld-wp73.template-help.com/wordpress/prod_29735/v1/wp-content/uploads/2020/09/logo.png"
-                alt="Mahdiyya Logo">
-        </div>
-        <span class="leftside">
-            <nav>
-                <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Services</li>
-                    <li>Project</li>
-                    <li>Mahdiyya</li>
-                    <li>Contact</li>
-                </ul>
-            </nav>
-            <button class="login">Login</button>
-        </span>
-    </header>
-    <main>
-        <section class="slideshow">
-            <div class="slide"
-                style="background: url('https://ld-wp73.template-help.com/wordpress/prod_29735/v1/wp-content/uploads/2020/09/slide-1-1024x432-1.jpg');">
-                <h1 class="title">Inspiration, Innovation <br> and Discovery.</h1>
-                <p class="body"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci quis nisi porro
-                    ipsum nihil voluptatibus labore iste dignissimos consectetur quasi, accusamus sunt at fugit?
-                    Nobis veniam ratione ipsa fuga odit! </p>
-                <div class="footer">
-                    <button>Lorem</button>
-                    <button>Ipsum</button>
-                </div>
-            </div>
-        </section>
-        <section class="status">
-            <h2 class="status-header">Counters</h2>
-            <div class="statusDivider"></div>
-            <p class="description">
-                Cedar High University was founded on the principle that by pursuing big ideas and sharing what we learn,
-                we make the world a better place. For more than 135 years, we haven’t strayed from that vision.
-            </p>
-            <div class="statusContainer">
-                <div class="sec">
-                    <div class="secIcon"></div>
-                    <p class="secInfo">85+</p>
-                    <p class="secName">Graduates</p>
-                </div>
-                <div class="sec">
-                    <div class="secIcon"></div>
-                    <p class="secInfo">85+</p>
-                    <p class="secName">Graduates</p>
-                </div>
-                <div class="sec">
-                    <div class="secIcon"></div>
-                    <p class="secInfo">85+</p>
-                    <p class="secName">Graduates</p>
-                </div>
-                <div class="sec">
-                    <div class="secIcon"></div>
-                    <p class="secInfo">85+</p>
-                    <p class="secName">Graduates</p>
-                </div>
-            </div>
-        </section>
-        <section class="mapContainer">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6473.883610965569!2d76.15320865!3d11.119675299999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba63698834e190d%3A0xe0c3d1006328220!2sPayyanad%2C%20Kerala%20676122!5e1!3m2!1sen!2sin!4v1659874736978!5m2!1sen!2sin"
-                width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </section>
-    </main>
-    <footer>
-        <div class="footerLogo"></div>
-    </footer>
+
+	<!-- Container -->
+	<div id="container" class="active">
+		<!-- Header -->
+		<header>
+
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+				<div class="container">
+
+					<a class="navbar-brand" href="#">
+						<img src="./src/logo.png" alt="">
+					</a>
+
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav mr-auto">
+							<li class="drop-link">
+								<a class="active" href="#">Home</a>
+							</li>
+							<li class="drop-link">
+								<a href="#">Pages <i class="fa fa-angle-down"></i></a>
+								<ul class="dropdown">
+									<li><a href="#">About Us</a></li>
+									<li><a href="#">About Us</a></li>
+									<li class="drop-link">
+										<a href="#">Submenu</a>
+										<ul class="dropdown level2">
+											<li><a href="#">Submenu
+													Level 1</a></li>
+											<li class="drop-link">
+												<a href="#">Submenu
+													Level 2</a>
+												<ul class="dropdown level2">
+													<li><a href="#">Submenu
+															Level 2</a></li>
+													<li><a href="#">Submenu
+															Level 2</a></li>
+												</ul>
+											</li>
+											<li><a href="#">Submenu
+													Level 1</a></li>
+										</ul>
+									</li>
+									<li><a href="#">About Us</a></li>
+									<li><a href="#">About Us</a></li>
+								</ul>
+							</li>
+							<li class="drop-link">
+								<a href="#">Blog <i class="fa fa-angle-down"></i></a>
+								<ul class="dropdown">
+									<li class="drop-link">
+										<a href="#">Submenu</a>
+										<ul class="dropdown level2">
+											<li><a href="#">Submenu
+													Level 1</a></li>
+											<li class="drop-link">
+												<a href="#">Submenu
+													Level 2</a>
+												<ul class="dropdown level2">
+													<li><a href="#">Submenu
+															Level 2</a></li>
+													<li><a href="#">Submenu
+															Level 2</a></li>
+												</ul>
+											</li>
+											<li><a href="#">Submenu
+													Level 1</a></li>
+										</ul>
+									</li>
+									<li><a href="#">About Us</a></li>
+									<li><a href="#">About Us</a></li>
+								</ul>
+							</li>
+							<li class="drop-link">
+								<a href="#">Courses</a>
+							</li>
+							<li><a href="#">Events</a></li>
+							<li><a href="#">Contact</a></li>
+						</ul>
+						<a href="#" class="register-modal-opener login-button"><i class="material-icons">
+								<!-- Here add login Icon Mr. janish -->
+							</i> Get
+							Started</a>
+					</div>
+				</div>
+			</nav>
+
+			<div class="mobile-menu">
+				<div class="search-form-box">
+					<form class="search-form">
+						<input type="search" class="search-field" placeholder="Enter keyword...">
+						<button type="submit" class="search-submit">
+							<i class="material-icons open-search">search</i>
+						</button>
+					</form>
+				</div>
+				<div class="shopping-cart-box">
+					<a class="shop-icon" href="http://nunforest.com/CPET/cart.html">
+						<i class="material-icons">shopping_cart</i>
+						Cart
+						<span class="CPET-cart-number">0</span>
+					</a>
+				</div>
+				<nav class="mobile-nav">
+					<ul class="mobile-menu-list">
+						<li>
+							<a href="http://nunforest.com/CPET/index.html">Home</a>
+						</li>
+						<li class="drop-link">
+							<a href="#">Pages</a>
+							<ul class="drop-level">
+								<li><a href="http://nunforest.com/CPET/about.html">About Us</a></li>
+								<li><a href="http://nunforest.com/CPET/pricing.html">Pricing Packages</a></li>
+								<li><a href="http://nunforest.com/CPET/portfolio.html">Portfolio</a></li>
+								<li><a href="http://nunforest.com/CPET/single-project.html">Portfolio Single</a>
+								</li>
+								<li><a href="http://nunforest.com/CPET/teachers.html">Teachers</a></li>
+								<li><a href="http://nunforest.com/CPET/single-teacher.html">Teacher Single</a></li>
+								<li><a href="http://nunforest.com/CPET/cart.html">Shopping Cart</a></li>
+								<li><a href="http://nunforest.com/CPET/checkout.html">Checkout</a></li>
+								<li><a href="http://nunforest.com/CPET/single-teacher.html">Teacher Single</a></li>
+								<li class="drop-link">
+									<a href="#">Submenu Level
+										1</a>
+									<ul class="drop-level">
+										<li><a href="#">Submenu
+												Level 2</a></li>
+										<li class="drop-link">
+											<a href="#">Submenu
+												Level 2</a>
+											<ul class="drop-level">
+												<li><a
+														href="#">Submenu
+														Level 3</a></li>
+												<li><a
+														href="#">Submenu
+														Level 3</a></li>
+											</ul>
+										</li>
+										<li><a href="#">Submenu
+												Level 2</a></li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li class="drop-link">
+							<a href="http://nunforest.com/CPET/blog.html">Blog</a>
+							<ul class="drop-level">
+								<li class="drop-link">
+									<a href="http://nunforest.com/CPET/blog-list.html">Blog List</a>
+									<ul class="drop-level">
+										<li><a href="http://nunforest.com/CPET/blog-list-leftsidebar.html">Blog List
+												- Sidebar Left</a></li>
+										<li><a href="http://nunforest.com/CPET/blog-list-rightsidebar.html">Blog
+												List - Sidebar Right</a></li>
+										<li><a href="http://nunforest.com/CPET/blog-list.html">No Sidebar</a></li>
+									</ul>
+								</li>
+								<li class="drop-link">
+									<a href="http://nunforest.com/CPET/blog-grid-3.html">Blog Grid</a>
+									<ul class="drop-level">
+										<li><a href="http://nunforest.com/CPET/blog-grid-3.html">3 Column</a></li>
+										<li><a href="http://nunforest.com/CPET/blog-grid-4.html">4 Column</a></li>
+										<li><a href="http://nunforest.com/CPET/blog-grid-leftsidebar.html">Sidebar
+												Left</a></li>
+										<li><a href="http://nunforest.com/CPET/blog-grid-rightsidebar.html">Sidebar
+												Right</a></li>
+									</ul>
+								</li>
+								<li><a href="http://nunforest.com/CPET/blog.html">Blog Classic</a></li>
+								<li><a href="http://nunforest.com/CPET/single-post.html">Post Single</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="http://nunforest.com/CPET/courses.html">Courses</a>
+						</li>
+						<li>
+							<a href="http://nunforest.com/CPET/events.html">Events</a>
+						</li>
+						<li>
+							<a href="http://nunforest.com/CPET/contact.html">Contact</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+
+		</header>
+		<!-- End Header -->
+
+		<!-- slider -->
+		<div class="slideShow">
+			<div class="slide"
+				style="background: url('https://upload.wikimedia.org/wikipedia/commons/b/b2/Darul_Huda_Islamic_University_Chemmad.jpg');">
+				<div class="slideContent">
+					<h2>Centre For Public Education And Training</h2>
+					<p>CPET is an unprecedented attempt by DHIU to plan, design and implement various educational and
+						training programs aimed at different groups of public. Established in January 2012, the CPET has
+						started engaging in the process of educating the ummah by providing the long and short term
+						diploma and Certificate courses. </p><button>Learn More</button>
+				</div>
+			</div>
+		</div>
+		<!-- End Slider -->
+
+		<!-- feature-section-->
+		<section class="feature-section">
+			<div class="container">
+				<div class="feature-box">
+					<div class="row">
+						<div class="col-lg-4 col-md-6">
+							<div class="feature-post">
+								<div class="icon-holder">
+									<i class="fa fa-umbrella"></i>
+								</div>
+								<div class="feature-content">
+									<h2>
+										Online Learn Courses Management
+									</h2>
+									<p>Analyzing negative materials about your brand and addressing them with sentiment
+										analysis and press.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6">
+							<div class="feature-post">
+								<div class="icon-holder color2">
+									<i class="fa fa-id-card-o"></i>
+								</div>
+								<div class="feature-content">
+									<h2>
+										Learn from the masters of the field online
+									</h2>
+									<p>Analyzing negative materials about your brand and addressing them with sentiment
+										analysis and press.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6">
+							<div class="feature-post">
+								<div class="icon-holder color3">
+									<i class="fa fa-handshake-o"></i>
+								</div>
+								<div class="feature-content">
+									<h2>
+										An Introduction-Skills For Learners
+									</h2>
+									<p>Analyzing negative materials about your brand and addressing them with sentiment
+										analysis and press.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End feature section -->
+
+		<!-- collection-section  -->
+		<section class="collection-section">
+			<div class="container">
+				<div class="title-section">
+					<div class="left-part">
+						<span>Categories</span>
+						<h1>Trending Collection</h1>
+					</div>
+					<div class="right-part">
+						<a class="button-one" href="#">View All
+							Courses</a>
+					</div>
+				</div>
+				<div class="collection-box">
+					<div class="row">
+						<div class="col-lg-6 col-md-12">
+							<div class="collection-post">
+								<div class="inner-collection">
+									<img src="./src/web-development.jpg" alt="">
+									<a href="#" class="hover-post">
+										<span class="title">Web Development</span>
+										<span class="numb-courses">3 Courses</span>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6">
+							<div class="collection-post">
+								<div class="inner-collection">
+									<img src="./src/web-design.jpg" alt="">
+									<a href="#" class="hover-post">
+										<span class="title">Web Design</span>
+										<span class="numb-courses">2 Courses</span>
+									</a>
+								</div>
+							</div>
+							<div class="collection-post">
+								<div class="inner-collection">
+									<img src="./src/technology.jpg" alt="">
+									<a href="#" class="hover-post">
+										<span class="title">Technology</span>
+										<span class="numb-courses">3 Courses</span>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6">
+							<div class="collection-post">
+								<div class="inner-collection">
+									<img src="./src/photography.jpg" alt="">
+									<a href="#" class="hover-post">
+										<span class="title">Photography</span>
+										<span class="numb-courses">3 Courses</span>
+									</a>
+								</div>
+							</div>
+							<div class="collection-post">
+								<div class="inner-collection">
+									<img src="./src/design.jpg" alt="">
+									<a href="#" class="hover-post">
+										<span class="title">Design</span>
+										<span class="numb-courses">3 Courses</span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+		<!-- End collection section -->
+
+		<!-- countdown-section 
+			================================================== -->
+		<section class="countdown-section">
+			<div class="container">
+				<div class="countdown-box">
+					<h1>Mahdiyya Course</h1>
+					<p>Admission Closes Soon</p>
+					</div>
+					<p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum cum accusamus provident dolore nesciunt aliquid esse eius obcaecati asperiores dolorem ipsa, quia modi eaque temporibus quidem quibusdam maiores? Fugiat, nihil? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut aut hic quaerat dolores a sint blanditiis voluptates distinctio officiis tenetur, similique voluptate minima. Quo veritatis ab, officia exercitationem enim laborum!</p>
+					<a class="button-two" href="#">Apply Now</a>
+				</div>
+			</div>
+		</section>
+		<!-- End countdown section -->
+
+		<!-- popular-courses-section 
+			================================================== -->
+		<section class="popular-courses-section">
+			<div class="container">
+				<div class="title-section">
+					<div class="left-part">
+						<span>Education</span>
+						<h1>Popular Courses</h1>
+					</div>
+					<div class="right-part">
+						<a class="button-one" href="#">View All
+							Courses</a>
+					</div>
+				</div>
+
+				<div class="popular-courses-box">
+					<div class="row">
+
+						<div class="col-lg-3 col-md-6">
+							<div class="course-post">
+								<div class="course-thumbnail-holder">
+									<a href="#">
+										<img src="./src/1.jpg" alt="">
+									</a>
+								</div>
+								<div class="course-content-holder">
+									<div class="course-content-main">
+										<h2 class="course-title">
+											<a href="#">Certificate Course in Islamic Concept and Practice (CCICP)</a>
+										</h2>
+										<div class="course-rating-teacher">
+											<div class="star-rating has-ratings" title="Rated 5.00 out of 5">
+												<span style="width:100%">
+													<span class="rating">Admission Open</span>
+													<span class="votes-number"></span>
+												</span>
+											</div>
+											<a href="#"
+												class="course-loop-teacher">Apply Now</a>
+										</div>
+									</div>
+									<div class="course-content-bottom">
+										<div class="course-students">
+											<i class="material-icons">Duration :</i>
+											<span>8 Months</span>
+										</div>
+										<div class="course-price">
+											<span> INR 5000.</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-3 col-md-6">
+							<div class="course-post">
+								<div class="course-thumbnail-holder">
+									<a href="#">
+										<img src="./src/2.jpg" alt="">
+									</a>
+								</div>
+								<div class="course-content-holder">
+									<div class="course-content-main">
+										<h2 class="course-title">
+											<a href="#">Thahdeed; Certificate Course in Arabic Language</a>
+										</h2>
+										<div class="course-rating-teacher">
+											<div class="star-rating has-ratings" title="Apply Now For New Admissions">
+												<span style="width:100%">
+													<span class="rating">Admission Open</span>
+													<span class="votes-number"></span>
+												</span>
+											</div>
+											<a href="#"
+												class="course-loop-teacher">Apply Now</a>
+										</div>
+									</div>
+									<div class="course-content-bottom">
+										<div class="course-students">
+											<i class="material-icons">Duration :</i>
+											<span>15 Days</span>
+										</div>
+										<div class="course-price">
+											<span> INR 350.</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6">
+							<div class="course-post">
+								<div class="course-thumbnail-holder">
+									<a href="#">
+										<img src="./src/3.jpg" alt="">
+									</a>
+								</div>
+								<div class="course-content-holder">
+									<div class="course-content-main">
+										<h2 class="course-title">
+											<a href="#">Sogathe Qur'an Online Course</a>
+										</h2>
+										<div class="course-rating-teacher">
+											<div class="star-rating has-ratings" title="Apply Now For New Admissions">
+												<span style="width:100%">
+													<span class="rating">Admission Open</span>
+													<span class="votes-number"></span>
+												</span>
+											</div>
+											<a href="#"
+												class="course-loop-teacher">Apply Now</a>
+										</div>
+									</div>
+									<div class="course-content-bottom">
+										<div class="course-students">
+											<i class="material-icons">Duration :</i>
+											<span>2.5 Months</span>
+										</div>
+										<div class="course-price">
+											<span> INR 100.</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6">
+							<div class="course-post">
+								<div class="course-thumbnail-holder">
+									<a href="#">
+										<img src="./src/1.jpg" alt="">
+									</a>
+								</div>
+								<div class="course-content-holder">
+									<div class="course-content-main">
+										<h2 class="course-title">
+											<a href="#">Translation Course</a>
+										</h2>
+										<div class="course-rating-teacher">
+											<div class="star-rating has-ratings" title="Apply Now For New Admissions">
+												<span style="width:100%">
+													<span class="rating">Admission Open</span>
+													<span class="votes-number"></span>
+												</span>
+											</div>
+											<a href="#"
+												class="course-loop-teacher">Apply Now</a>
+										</div>
+									</div>
+									<div class="course-content-bottom">
+										<div class="course-students">
+											<i class="material-icons">Duration :</i>
+											<span>15 Days</span>
+										</div>
+										<div class="course-price">
+											<span> INR 800.</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+
+					</div>
+				</div>
+				
+
+			</div>
+		</section>
+		<!-- End popular-courses section -->
+
+		<!-- events-section 
+			================================================== -->
+		<section class="events-section">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6">
+						<div class="title-section">
+							<div class="left-part">
+								<span>Events</span>
+								<h1>Upcoming Events</h1>
+							</div>
+						</div>
+
+						<div class="events-box">
+
+							<div class="events-post">
+								<div class="event-inner-content">
+									<div class="top-part">
+										<div class="date-holder">
+											<div class="date">
+												<span class="date-day">22</span>
+												<span class="date-month">Oct</span>
+											</div>
+										</div>
+										<div class="content">
+											<div class="event-meta">
+												<span class="event-meta-piece start-time">
+													<i class="material-icons">access_time</i> 6:00 am - 12:00 pm
+												</span>
+												<span class="event-meta-piece location">
+													<i class="material-icons">location_on</i> New York , US of America
+												</span>
+											</div>
+											<h2 class="title"><a
+													href="#">Summer
+													High School Journalism Camp Registration Form</a></h2>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="events-post">
+								<div class="event-inner-content">
+									<div class="top-part">
+										<div class="date-holder">
+											<div class="date">
+												<span class="date-day">14</span>
+												<span class="date-month">Dec</span>
+											</div>
+										</div>
+										<div class="content">
+											<div class="event-meta">
+												<span class="event-meta-piece start-time">
+													<i class="material-icons">access_time</i> 2:00 am - 5:00 am
+												</span>
+												<span class="event-meta-piece location">
+													<i class="material-icons">location_on</i> New York , US of America
+												</span>
+											</div>
+											<h2 class="title"><a
+													href="#">Board
+													of Regents Campus Live and Community Forum</a></h2>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="events-post">
+								<div class="event-inner-content">
+									<div class="top-part">
+										<div class="date-holder">
+											<div class="date">
+												<span class="date-day">17</span>
+												<span class="date-month">Dec</span>
+											</div>
+										</div>
+										<div class="content">
+											<div class="event-meta">
+												<span class="event-meta-piece start-time">
+													<i class="material-icons">access_time</i> 2:00 am - 8:00 am
+												</span>
+												<span class="event-meta-piece location">
+													<i class="material-icons">location_on</i> New York , US of America
+												</span>
+											</div>
+											<h2 class="title"><a
+													href="#">May
+													Professional Development Diversity and Inclusion Series</a></h2>
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="title-section">
+							<div class="left-part">
+								<span>Watch Video</span>
+								<h1>Learn Anywhere</h1>
+							</div>
+						</div>
+
+						<div class="video-box">
+							<div class="video-post">
+								<img src="./src/video-poster-1.jpg" alt="">
+								<div class="hover-post">
+									<h2>Marketing, Media and Advertising</h2>
+									<p>About Studioare</p>
+								</div>
+								<a class="video-link iframe" href="https://vimeo.com/97447862"><span><i
+											class="fa fa-play"></i></span></a>
+							</div>
+
+							<div class="row">
+								<div class="col-md-6">
+									<div class="video-post small-post">
+										<img src="./src/video-poster-2.jpg" alt="">
+										<div class="hover-post">
+											<h2>Limitless learning</h2>
+										</div>
+										<a class="video-link iframe" href="https://vimeo.com/97447862"><span><i
+													class="fa fa-play"></i></span></a>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="video-post small-post">
+										<img src="./src/video-poster-3.jpg" alt="">
+										<div class="hover-post">
+											<h2>Learn by Doing</h2>
+										</div>
+										<a class="video-link iframe" href="https://vimeo.com/97447862"><span><i
+													class="fa fa-play"></i></span></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section>
+		<!-- End events section -->
+
+		<!-- news-section 
+			================================================== -->
+		<section class="news-section">
+			<div class="container">
+				<div class="title-section">
+					<div class="left-part">
+						<span>Blog</span>
+						<h1>Latest News</h1>
+					</div>
+					<div class="right-part">
+						<a class="button-one" href="#">View All
+							Posts</a>
+					</div>
+				</div>
+				<div class="news-box">
+					<div class="row">
+						<div class="col-lg-3 col-md-6">
+							<div class="blog-post">
+								<a href="#"><img
+										src="./src/blog-image-1.jpg" alt=""></a>
+								<div class="post-content">
+									<a class="category"
+										href="#">Academics</a>
+									<h2><a href="#">CPET Conference Held</a></h2>
+									<div class="post-meta date">
+										<i class="material-icons">access_time</i> June 13, 2018
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6">
+							<div class="blog-post">
+								<a href="#"><img
+										src="./src/blog-image-1.jpg" alt=""></a>
+								<div class="post-content">
+									<a class="category"
+										href="#">Academics</a>
+									<h2><a href="#">CPET Conference Held</a></h2>
+									<div class="post-meta date">
+										<i class="material-icons">access_time</i> June 13, 2018
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6">
+							<div class="blog-post">
+								<a href="#"><img
+										src="./src/blog-image-1.jpg" alt=""></a>
+								<div class="post-content">
+									<a class="category"
+										href="#">Academics</a>
+									<h2><a href="#">CPET Conference Held</a></h2>
+									<div class="post-meta date">
+										<i class="material-icons">access_time</i> June 13, 2018
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6">
+							<div class="blog-post">
+								<a href="#"><img
+										src="./src/blog-image-1.jpg" alt=""></a>
+								<div class="post-content">
+									<a class="category"
+										href="#">Academics</a>
+									<h2><a href="#">CPET Conference Held</a></h2>
+									<div class="post-meta date">
+										<i class="material-icons">access_time</i> June 13, 2018
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+		<!-- End news section -->
+
+
+		<!-- footer 
+			================================================== -->
+		<footer>
+			<div class="container">
+
+				<div class="up-footer">
+					<div class="row">
+
+						<div class="col-lg-4 col-md-6">
+							<div class="footer-widget text-widget">
+								<a href="http://nunforest.com/CPET/index.html" class="footer-logo"><img
+										src="./src/logo-light.png" alt=""></a>
+								<p>Centre for Public Education and Training is an extension of the University devised for providing socio-educational empowerment programs for the public. CPET plans, designs and implements awareness programs aimed at different age groups of the public.</p>
+								<ul>
+									<li>
+										<div class="contact-info-icon">
+											<i class="material-icons">location_on</i>
+										</div>
+										<div class="contact-info-value">Darul Huda Islamic University</div>
+									</li>
+									<li>
+										<div class="contact-info-icon">
+											<i class="material-icons">phone_android</i>
+										</div>
+										<div class="contact-info-value">+91 9746229547</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="col-lg-4 col-md-6">
+							<div class="footer-widget quick-widget">
+								<h2>Quick Links</h2>
+								<ul class="quick-list">
+									<li><a href="#">Contact</a></li>
+									<li><a href="#">Pricing Packages</a></li>
+									<li><a href="#">About Us</a></li>
+									<li><a href="#">Courses</a></li>
+									<li><a href="#">News</a></li>
+									<li><a href="#">Home</a></li>
+									<li><a href="#">Sample
+											Page</a></li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="col-lg-4 col-md-6">
+							<div class="footer-widget subscribe-widget">
+								<h2>Subscribe Us</h2>
+								<p>Don't miss anything, Subscribe and keep informed about our updates.</p>
+								<div class="newsletter-form">
+									<input class="form-control" type="email" name="EMAIL"
+										placeholder="Enter Your E-mail" required="">
+									<input type="submit" value="Subscribe">
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+
+			<div class="footer-copyright copyrights-layout-default">
+				<div class="container">
+					<div class="copyright-inner">
+						<div class="copyright-cell"> &copy; 2022 <span class="highlight">CPET</span> (Center for Public Education and Training)</div>
+						<div class="copyright-cell">
+							<ul class="CPET-social-links">
+								<li><a href="#"
+										class="facebook"><i class="fa fa-facebook-f"></i></a></li>
+								<li><a href="#"
+										class="twitter"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="#"
+										class="google"><i class="fa fa-google-plus"></i></a></li>
+								<li><a href="#"
+										class="linkedin"><i class="fa fa-linkedin"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</footer>
+		<!-- End footer -->
+
+	</div>
+	<!-- End Container -->
+
 
 </body>
 
