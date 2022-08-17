@@ -668,9 +668,15 @@ margin: 2.5% 7.5% ;
   height: 8vh;
   width: 100%;
   background-color: #b16c19;
-  margin-top: -10px;
+  display: flex;
+ align-items: center;
+ justify-content: space-between;
+ 
+}.importantLinks p{
+  margin: 0;
+color: white;
+white-space: nowrap;
 }
-
 /*------------------------------------------------- */
 /* =  feature section */
 /*------------------------------------------------- */
