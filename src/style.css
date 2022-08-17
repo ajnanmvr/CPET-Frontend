@@ -202,9 +202,7 @@ header {
     float: none;
     margin-right: 30px; }
     .navbar a.navbar-brand img {
-      object-fit: contain;
-      height: 38px;
-      margin-bottom: 5px; }
+      height: 125px; }
   .navbar .login-button {
     color: #fff;
     text-align: center;
@@ -271,7 +269,7 @@ header {
   top: 100%;
   left: 0;
   background: #fff;
-  width: 240px;
+  min-width: 200px;
   -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.12);
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.12);
   background-color: #fff;
@@ -442,6 +440,8 @@ a.mobile-nav-toggle {
         color: #adb5bd; }
 
 @media (max-width: 991px) {
+  .navbar a.navbar-brand img {
+    height: 65px; }
   .right-top-line {
     display: none !important; }
   .top-line {
@@ -456,18 +456,7 @@ a.mobile-nav-toggle {
     display: flex;
     justify-content: flex-end; } }
 
-/**
- * Allows you to use retina images at various pixel densities.
- * Examples:
- *
- *   @include retina(/images/mypic.jpg, 2);
- *   @include retina(/images/mypic.jpg, 3, 100px 100px, left top no-repeat transparent);
- *
- * @param  {Value}  $path               The path to the file name minus extension.
- * @param  {Number} $cap:    2          The highest pixel density level images exist for.
- * @param  {Value}  $size:   auto auto  The intended width of the rendered image.
- * @param  {Value}  $extras: null       Any other `background` values to be added.
- */
+
 /*-------------------------------------------------- */
 /* Isotope filtering */
 /*------------------------------------------------- */
@@ -616,7 +605,7 @@ section.page-banner-section {
 /* =  Slider */
 /*------------------------------------------------- */
 .slide{
-  height: 75.6vh;
+  height: 71vh;
   width: 100%;
   background-size: cover !important;
   background-position: center !important;
@@ -671,12 +660,43 @@ margin: 2.5% 7.5% ;
   display: flex;
  align-items: center;
  justify-content: space-between;
- 
+ overflow: hidden;
+ padding: 15px; 
 }.importantLinks p{
   margin: 0;
 color: white;
 white-space: nowrap;
 }
+/*------------------------------------------------- */
+/* =  DirectorNews section */
+/*------------------------------------------------- */
+
+.director-news{
+  display: flex;
+  flex-wrap: wrap;
+}.director-news .director{
+flex:3;
+padding-bottom:0;
+}.director-news .news{
+  flex:2;
+  padding-bottom:0;
+  }
+  .director .blog-post.list-style{
+    align-items: center;
+  }
+
+  .scroll{
+    overflow: auto;
+    height: 420px;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    border-radius: 5px;
+    padding: 15px;
+    border: #46474921 solid 0.1px;
+  }
+  .scroll::-webkit-scrollbar {
+    display: none;
+  }
 /*------------------------------------------------- */
 /* =  feature section */
 /*------------------------------------------------- */
