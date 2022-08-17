@@ -131,7 +131,7 @@ header {
     .top-line .right-top-line button {
       display: inline-block;
       width: 56px;
-      heght: 56px;
+      height: 56px;
       text-align: center;
       color: rgba(255, 255, 255, 0.75);
       background-color: rgba(0, 0, 0, 0.15);
@@ -616,9 +616,10 @@ section.page-banner-section {
 /* =  Slider */
 /*------------------------------------------------- */
 .slide{
-  height: 85vh;
+  height: 75.6vh;
   width: 100%;
   background-size: cover !important;
+  background-position: center !important;
   display: flex;
   align-items: center;
 }
@@ -660,6 +661,16 @@ margin: 2.5% 7.5% ;
 }.slideContent button a:link,.slideContent button a:visited,.slideContent button a:active{
   color: rgb(255, 255, 255);
 }
+/*------------------------------------------------- */
+/* =  Important Links Section section */
+/*------------------------------------------------- */
+.importantLinks{
+  height: 8vh;
+  width: 100%;
+  background-color: #b16c19;
+  margin-top: -10px;
+}
+
 /*------------------------------------------------- */
 /* =  feature section */
 /*------------------------------------------------- */
@@ -3136,7 +3147,6 @@ footer {
               -moz-transition: all 0.2s ease-in-out;
               -webkit-transition: all 0.2s ease-in-out;
               -o-transition: all 0.2s ease-in-out;
-              float: left;
               margin-top: 11px; }
             footer .up-footer .footer-widget ul.quick-list li a:hover {
               color: #ffffff; }
