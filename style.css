@@ -1,0 +1,410 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+:root {
+  --alpha: #0a4352;
+  --beta: #0b7484;
+  --gamma: #448fa1;
+  --hover: #cfe0e4;
+  --border: 0.5px solid #f1eeee7e;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: poppins, Montserrat, Raleway, "Franklin Gothic Medium",
+    "Arial Narrow", Arial, sans-serif;
+}
+
+
+
+/* Univeral Applied Styles */
+a {
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+section {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.card {
+  cursor: pointer;
+}
+
+/* Header Style */
+
+header .small {
+  background-color: var(--alpha);
+  width: 100%;
+}
+
+header .smallContent {
+  height: 39px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+header .smallContent a {
+  color: white;
+  margin: 0 5px;
+}
+
+header .smallContent i {
+  padding: 0 3px;
+}
+
+header .smallContent a:hover,
+header .smallContent a:active {
+  color: var(--hover);
+  font-weight: 500;
+}
+
+header .bigContent {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  margin: 0 auto;
+}
+
+header .big nav {
+  flex: 1;
+  text-align: center;
+}
+
+header .big nav ul li {
+  display: inline;
+  margin: 0 10px;
+  font-weight: 500;
+}
+
+header .big nav ul li a {
+  color: var(--alpha);
+}
+
+/* Slider */
+.slider {
+  width: 100%;
+  overflow: hidden;
+  max-height: 70vh;
+}
+.colorOverlay{
+  background-color: var(--beta);
+  height: 1000vh;
+  width: 1000%;
+  margin: -200vh;
+  opacity: 0.5;
+}
+
+.slide {
+
+  min-height: 430px;
+  background-size: cover !important;
+  background-position: center center !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 10% 2% 10%;
+  color: white;
+  gap: 20px;
+}
+
+.slide h2 {
+  font-weight: bolder;
+  font-size: 2.75rem;
+  width: 50%;
+  line-height: 50px;  
+}.slide p{
+  width: 75%;
+}
+.slide h2, .slide p {
+  z-index: 10;
+}
+/* Updates */
+.updates {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  margin: -50px auto 0 auto;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.updatesHeading {
+  background: var(--beta);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  height: 100%;
+  z-index: 13;
+}
+
+.updatesHeading i {
+  font-size: 3rem;
+  margin-right: 10px;
+}
+
+.updatesContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100px;
+  flex: 3;
+  z-index: 14;
+  background-color: azure;
+}
+
+/* Programmes */
+.programmes {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 15px;
+  margin: 100px auto;
+}
+
+.programme {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  border: var(--border);
+  padding: 15px;
+}
+
+.programme:hover {
+  /* box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.199); */
+  border: 1px solid var(--alpha);
+}
+
+.programmeContent {
+  margin-left: 20px;
+}
+
+.programmeContent h3 {
+  font-size: 1rem;
+  font-weight: 00;
+}
+
+.programmeContent p {
+  color: grey;
+  font-size: 0.75rem;
+}
+
+/* Featured */
+.featured {
+  margin: 100px auto;
+}
+
+.featuredContent {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.featured .card {
+  border: var(--border);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  margin: 30px 0;
+  width: 300px;
+}
+
+.featured .card:hover {
+  border: 1px solid var(--alpha);
+}
+
+.featured .card .img {
+  background-size: cover !important;
+  background-position: center !important;
+  width: 300px;
+  height: 250px;
+}
+
+.featured .card .desc {
+  padding: 30px 20px 15px 20px;
+  color: grey;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.featured .card .desc h3 {
+  margin-bottom: 10px;
+  color: var(--alpha);
+  font-weight: 600;
+  line-height: 23px;
+  word-wrap: normal;
+  flex: 1;
+}
+
+.featured .card .desc .applyContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.featured .card .desc button {
+  border: none;
+  background-color: var(--gamma);
+  color: white;
+  padding: 5px 9px;
+  border-radius: 5px;
+}
+
+.featured .card .desc button:hover {
+  background-color: var(--alpha);
+  font-weight: 600;
+}
+
+.featured .card .desc i {
+  color: var(--alpha);
+  margin-right: 5px;
+}
+
+.about {
+  display: flex;
+}
+
+.aboutContent {
+  flex: 3;
+  padding-right: 20px;
+}
+
+.about p {
+  font-size: 0.95rem;
+  color: rgb(65, 62, 62);
+}
+
+.about button {
+  border: none;
+  background-color: var(--alpha);
+  color: white;
+  padding: 5px 9px;
+  border-radius: 5px;
+  margin: 15px 0;
+}
+
+.about button:hover {
+  background-color: var(--gamma);
+}
+
+.about .video {
+  background-size: cover !important;
+  background-position: center !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 2;
+  border-radius: 5px;
+}
+
+.about .video i {
+  color: white;
+  background-color: var(--alpha);
+  font-size: 4rem;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Counters */
+.counter {
+  margin: 150px auto;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.counter .card {
+  display: inline;
+  border: var(--border);
+  border-radius: 5px;
+  padding: 20px 30px;
+}
+
+.counter .card h3 {
+  margin-top: 20px;
+  font-size: 2rem;
+  line-height: 40px;
+}
+
+/* End Courses */
+.endCourses {
+  width: 85%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.endCourses .card {
+  margin: 20px;
+  flex: 1;
+  background-color: var(--alpha);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: contain;
+  background-origin: content-box;
+  padding: 20px 20px 0px 20px;
+  color: white;
+  border-radius: 5px;
+}
+
+.endCourses .card h3 {
+  line-height: 25px;
+  margin-bottom: 7px;
+}
+
+.endCourses .card p {
+  font-size: 0.75rem;
+}
+
+.endCourses .card p,
+.endCourses .card h3 {
+  width: 70%
+}
+
+.endCourses .card button {
+  margin: 7px 0 20px 0;
+}
+
+/* Footer */
+footer {
+margin-top: 125px;
+  color: white;
+  padding: 70px 10%;
+background-color: var(--alpha);
+}
+
+footer>div {
+  width: 33%;
+
+}footer .sec1 h2{
+  font-size: 2rem;
+}footer .sec1 p{
+  font-size:0.90rem;
+  color: rgba(255, 255, 255, 0.575);
+}
+footer .line {
+  height: 1px;
+  width: 25%;
+  background-color: white;
+  margin: 20px 0;
+}footer .socialMedia a{
+  color: white;
+  margin: 5px;
+}footer .socialMedia a:hover,footer .socialMedia a:active{
+  color: var(--hover);}
