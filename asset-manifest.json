@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/https://ajnanmvr.github.io/CPET-Frontend/static/css/main.e2f0f3f7.css",
-    "main.js": "/https://ajnanmvr.github.io/CPET-Frontend/static/js/main.f5e89a08.js",
-    "static/js/787.547a86be.chunk.js": "/https://ajnanmvr.github.io/CPET-Frontend/static/js/787.547a86be.chunk.js",
-    "index.html": "/https://ajnanmvr.github.io/CPET-Frontend/index.html",
-    "main.e2f0f3f7.css.map": "/https://ajnanmvr.github.io/CPET-Frontend/static/css/main.e2f0f3f7.css.map",
-    "main.f5e89a08.js.map": "/https://ajnanmvr.github.io/CPET-Frontend/static/js/main.f5e89a08.js.map",
-    "787.547a86be.chunk.js.map": "/https://ajnanmvr.github.io/CPET-Frontend/static/js/787.547a86be.chunk.js.map"
+    "main.css": "/CPET-Frontend/static/css/main.e2f0f3f7.css",
+    "main.js": "/CPET-Frontend/static/js/main.565d100e.js",
+    "static/js/787.547a86be.chunk.js": "/CPET-Frontend/static/js/787.547a86be.chunk.js",
+    "index.html": "/CPET-Frontend/index.html",
+    "main.e2f0f3f7.css.map": "/CPET-Frontend/static/css/main.e2f0f3f7.css.map",
+    "main.565d100e.js.map": "/CPET-Frontend/static/js/main.565d100e.js.map",
+    "787.547a86be.chunk.js.map": "/CPET-Frontend/static/js/787.547a86be.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e2f0f3f7.css",
-    "static/js/main.f5e89a08.js"
+    "static/js/main.565d100e.js"
   ]
 }
