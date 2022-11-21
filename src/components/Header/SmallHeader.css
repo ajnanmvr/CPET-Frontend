@@ -1,0 +1,29 @@
+header .small {
+    background-color: var(--alpha);
+    width: 100%;
+}
+
+header .smallContent {
+    height: 39px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+header .smallContent a {
+    color: white;
+    margin: 0 5px;
+}
+
+header .smallContent i {
+    padding: 0 3px;
+}
+
+header .smallContent a:hover,
+header .smallContent a:active {
+    color: var(--hover);
+    font-weight: 500;
+}

@@ -1,0 +1,11 @@
+footer {
+    margin-top: 125px;
+      color: white;
+      padding: 70px 10%;
+    background-color: var(--alpha);
+    }
+    
+    footer>div {
+      width: 33%;
+    
+    }

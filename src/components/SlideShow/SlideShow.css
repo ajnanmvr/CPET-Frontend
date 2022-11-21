@@ -1,0 +1,14 @@
+.slider {
+    width: 100%;
+    overflow: hidden;
+    max-height: 70vh;
+  }
+  .colorOverlay{
+    background-color: var(--beta);
+    height: 1000vh;
+    width: 1000%;
+    margin: -200vh;
+    opacity: 0.5;
+  }
+  
+ 

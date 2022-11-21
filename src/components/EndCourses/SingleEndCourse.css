@@ -1,0 +1,32 @@
+
+.endCourses .card {
+    margin: 20px;
+    flex: 1;
+    background-color: var(--alpha);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: contain;
+    background-origin: content-box;
+    padding: 20px 20px 0px 20px;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .endCourses .card h3 {
+    line-height: 25px;
+    margin-bottom: 7px;
+  }
+  
+  .endCourses .card p {
+    font-size: 0.75rem;
+  }
+  
+  .endCourses .card p,
+  .endCourses .card h3 {
+    width: 70%
+  }
+  
+  .endCourses .card button {
+    margin: 7px 0 20px 0;
+  }
+  

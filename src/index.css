@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+:root {
+  --alpha: #0a4352;
+  --beta: #0b7484;
+  --gamma: #448fa1;
+  --hover: #cfe0e4;
+  --border: 0.5px solid #f1eeee7e;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: poppins, Montserrat, Raleway, "Franklin Gothic Medium",
+    "Arial Narrow", Arial, sans-serif;
+}
+
+
+
+/* Univeral Applied Styles */
+a {
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+section {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.card {
+  cursor: pointer;
+}

@@ -1,0 +1,27 @@
+.slide {
+    min-height: 430px;
+    background-size: cover !important;
+    background-position: center center !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 10% 2% 10%;
+    color: white;
+    gap: 20px;
+}
+
+.slide h2 {
+    font-weight: bolder;
+    font-size: 2.75rem;
+    width: 50%;
+    line-height: 50px;
+}
+
+.slide p {
+    width: 75%;
+}
+
+.slide h2,
+.slide p {
+    z-index: 10;
+}

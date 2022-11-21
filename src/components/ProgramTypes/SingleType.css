@@ -1,0 +1,27 @@
+.programme {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border: var(--border);
+    padding: 15px;
+  }
+  
+  .programme:hover {
+    /* box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.199); */
+    border: 1px solid var(--alpha);
+  }
+  
+  .programmeContent {
+    margin-left: 20px;
+  }
+  
+  .programmeContent h3 {
+    font-size: 1rem;
+    font-weight: 00;
+  }
+  
+  .programmeContent p {
+    color: grey;
+    font-size: 0.75rem;
+  }
+  

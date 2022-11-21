@@ -1,0 +1,15 @@
+
+header .big nav {
+    flex: 1;
+    text-align: center;
+}
+
+header .big nav ul li {
+    display: inline;
+    margin: 0 10px;
+    font-weight: 500;
+}
+
+header .big nav ul li a {
+    color: var(--alpha);
+}

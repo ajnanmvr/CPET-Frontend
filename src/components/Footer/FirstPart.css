@@ -1,0 +1,16 @@
+footer .sec1 h2{
+    font-size: 2rem;
+  }footer .sec1 p{
+    font-size:0.90rem;
+    color: rgba(255, 255, 255, 0.575);
+  }
+  footer .line {
+    height: 1px;
+    width: 25%;
+    background-color: white;
+    margin: 20px 0;
+  }footer .socialMedia a{
+    color: white;
+    margin: 5px;
+  }footer .socialMedia a:hover,footer .socialMedia a:active{
+    color: var(--hover);}

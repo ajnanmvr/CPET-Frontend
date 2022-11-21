@@ -1,0 +1,63 @@
+.featured .card {
+    border: var(--border);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin: 30px 0;
+    width: 300px;
+  }
+  
+  .featured .card:hover {
+    border: 1px solid var(--alpha);
+  }
+  
+  .featured .card .img {
+    background-size: cover !important;
+    background-position: center !important;
+    width: 300px;
+    height: 250px;
+  }
+  
+  .featured .card .desc {
+    padding: 30px 20px 15px 20px;
+    color: grey;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  
+  .featured .card .desc h3 {
+    margin-bottom: 10px;
+    color: var(--alpha);
+    font-weight: 600;
+    line-height: 23px;
+    word-wrap: normal;
+    flex: 1;
+  }
+  
+  .featured .card .desc .applyContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .featured .card .desc button {
+    border: none;
+    background-color: var(--gamma);
+    color: white;
+    padding: 5px 9px;
+    border-radius: 5px;
+  }
+  
+  .featured .card .desc button:hover {
+    background-color: var(--alpha);
+    font-weight: 600;
+  }
+  
+  .featured .card .desc i {
+    color: var(--alpha);
+    margin-right: 5px;
+  }
+  

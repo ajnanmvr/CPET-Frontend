@@ -1,0 +1,10 @@
+.featured {
+    margin: 100px auto;
+  }
+  
+  .featuredContent {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  

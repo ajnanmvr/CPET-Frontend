@@ -1,0 +1,21 @@
+
+.about .video {
+    background-size: cover !important;
+    background-position: center !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 2;
+    border-radius: 5px;
+  }
+  
+  .about .video i {
+    color: white;
+    background-color: var(--alpha);
+    font-size: 4rem;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  

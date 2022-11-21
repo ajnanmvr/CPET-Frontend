@@ -1,0 +1,14 @@
+
+.counter .card {
+    display: inline;
+    border: var(--border);
+    border-radius: 5px;
+    padding: 20px 30px;
+  }
+  
+  .counter .card h3 {
+    margin-top: 20px;
+    font-size: 2rem;
+    line-height: 40px;
+  }
+  

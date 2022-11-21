@@ -1,0 +1,7 @@
+.endCourses {
+    width: 85%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  

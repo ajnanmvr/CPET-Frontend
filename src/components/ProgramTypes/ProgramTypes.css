@@ -1,0 +1,7 @@
+.programmes {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 15px;
+    margin: 100px auto;
+  }
+  

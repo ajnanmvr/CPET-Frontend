@@ -1,0 +1,35 @@
+.updates {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin: -50px auto 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .updatesHeading {
+    background: var(--beta);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    height: 100%;
+    z-index: 13;
+  }
+  
+  .updatesHeading i {
+    font-size: 3rem;
+    margin-right: 10px;
+  }
+  
+  .updatesContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    flex: 3;
+    z-index: 14;
+    background-color: var(--hover);
+  }
+  
