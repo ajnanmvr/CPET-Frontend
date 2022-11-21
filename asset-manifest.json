@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/CPET-Frontend/static/css/main.e2f0f3f7.css",
-    "main.js": "/CPET-Frontend/static/js/main.565d100e.js",
+    "main.js": "/CPET-Frontend/static/js/main.9a0555fd.js",
     "static/js/787.547a86be.chunk.js": "/CPET-Frontend/static/js/787.547a86be.chunk.js",
     "index.html": "/CPET-Frontend/index.html",
     "main.e2f0f3f7.css.map": "/CPET-Frontend/static/css/main.e2f0f3f7.css.map",
-    "main.565d100e.js.map": "/CPET-Frontend/static/js/main.565d100e.js.map",
+    "main.9a0555fd.js.map": "/CPET-Frontend/static/js/main.9a0555fd.js.map",
     "787.547a86be.chunk.js.map": "/CPET-Frontend/static/js/787.547a86be.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e2f0f3f7.css",
-    "static/js/main.565d100e.js"
+    "static/js/main.9a0555fd.js"
   ]
 }
